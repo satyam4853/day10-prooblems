@@ -4,7 +4,9 @@ using System.Text;
 
 namespace EmployeWageComputation
 {
-    class EmpWageBuilderArray
+    
+   public class EmpWageBuilderArray : IEmpWageBuilderArray
+
     {
         private int noofcompany = 0;
         public EmployeeClass[] CompanyEmpWageArray;
